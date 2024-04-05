@@ -75,35 +75,18 @@ body .header{
     margin: 0;
     font-size: 20px;
 }
-a{
+.light a{
     text-decoration: none;
     font-weight: 500;
     cursor: pointer;
     color: black;
 }
+.dark a{
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    color: white; 
+}
 .about-us{
     margin-left: 90px;
-
 }
-
-/* :root {
-    --background-color: #ffffff; /* Light theme background color */
-    --text-color: #000000; /* Light theme text color */
-  }
-  
-  /* Dark theme */
-  .dark-theme {
-    --background-color: #1a1a1a; /* Dark theme background color */
-    --text-color: #ffffff; /* Dark theme text color */
-  }
-  body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-  }
-  
-  /* Other styles for light theme */
-  
-  .dark-theme body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-  } */
