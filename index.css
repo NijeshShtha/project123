@@ -44,7 +44,12 @@
 .nav .item .home-btn {
     color: #0043ff8c;
 }
-
+.light #signup{
+    color: black;
+}
+.dark #signup{
+    color: white;
+}
 .light .nav .setting div{
     background-color: black;
 }
@@ -77,10 +82,15 @@
     background-image: linear-gradient(155deg, #a7ceff, #bfc9cb);
 }
 
-.home .left .btn input {
+.light .home .left .btn input {
     background-color: #0043ff8c;
+    color: black;
 }
 
+.dark .home .left .btn input {
+    background-color: #0043ff8c;
+    color: white;
+}
 .home .right img {
     filter: drop-shadow(20px 50px 25px #b3e3e3);
 }
@@ -105,16 +115,25 @@
     border: 1px solid darkgrey;
 }
 
-.loc-sec .main-sec .pick input {
+.light .loc-sec .main-sec .pick input {
     background-color: #0043ff8c;
+    color: black;
+}
+.dark .loc-sec .main-sec .pick input {
+    background-color: #0043ff8c;
+    color: white;
 }
 
 .car-sec .btn input {
     border: 1px solid darkgray;
 }
-
-.car-sec .main-sec .box {
+.light .car-sec .main-sec .box {
     border: 1px solid darkgray;
+    background-color:rgb(239, 18, 18);
+}
+.dark .car-sec .main-sec .box {
+    border: 1px solid darkgray;
+    background-color: rgb(15, 15, 15);
 }
 .car-sec .main-sec .box .review p {
     color: darkgray;
@@ -129,8 +148,13 @@
 }
 
 
-.car-sec .main-sec .box .price button {
+.light .car-sec .main-sec .box .price button {
     background-color: #0043ff8c;
+    color: black;
+}
+.dark .car-sec .main-sec .box .price button {
+    background-color: #0043ff8c;
+    color: white;
 }
 
 .car-sec .txt .txt1 span {
@@ -150,6 +174,7 @@
 
 .support-sec .main-sec .box i {
     background: #0043ff8c;
+    color: black;
 }
 
 .light .achie-sec {
