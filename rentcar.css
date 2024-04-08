@@ -1,0 +1,146 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+main {
+	padding: 20px;
+}
+
+main section {
+	margin-bottom: 20px;
+}
+
+main h2 {
+	margin-top: 0;
+}
+
+main ol {
+	list-style-type: decimal;
+	margin-left: 20px;
+}
+
+#fleet {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+#fleet ul {
+	margin: 0;
+	padding: 0;
+}
+
+#fleet li {
+	margin-bottom: 10px;
+}
+
+#rent {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+#rent h2 {
+	margin-top: 0;
+}
+
+#rent ol {
+	margin: 0;
+	padding-left: 20px;
+}
+
+#contact {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#contact ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#contact li {
+	margin-bottom: 10px;
+}
+
+#about {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#about p {
+	margin: 0;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+  }
+  
+  .car-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.333% - 20px);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .car-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .car-card h2 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .car-card p {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .car-card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .car-card button:last-child {
+    margin-right: 0;
+  }
