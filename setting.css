@@ -56,14 +56,27 @@ body .header{
     justify-content: space-between;
     align-items: center;
 }
-.mode-changer button{
-    width: 50px;
+.mode-changer img{
+    width: 120px;
     height: 50px;
-    margin: 0 600px 0 0;
+    margin: 0;
+    padding: 0;
 }
-.mode-changer p{
-    margin: 10px 0 0 90px;
+.light .mode-changer img{
+    background-color: black;
 }
+.dark .mode-changer img{
+    background-color: white;
+}
+.light .mode-changer img{
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.dark .mode-changer img{
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
 #back{
     background-color: black;
     border: 1px solid none;
