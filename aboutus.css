@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    position: relative;
+}
+.container img{
+    width: 1519.5px;
+    height: 1100px;
+}
+.about-us{
+    position: absolute;
+    margin: 60px 40px 50px 40px;
+    color: white;
+}
+.about-us h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    word-spacing: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.about-us span{
+    color: blue;
+    margin-left: 15px;
+}
+#sec-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 29px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.title h2{
+    font-size: 33px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.title p, ul{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 28px;
+}
+.title-list{
+    margin: 0 0 20px 20px;
+}
+#last-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 50px;
+}
