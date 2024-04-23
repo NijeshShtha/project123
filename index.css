@@ -13,64 +13,9 @@
     background-color: black;
     color: white;
 }
-
-.dark .nav {
-    background-color: black;
-}
-.light .nav {
-    background-color: white;
-}
-
-.nav .btn input {
-    background-color: #0043ff8c;
-}
-
-.light .nav .btn .login {
-    background-color: white;
-    color: #0043ff8c;
-}
-.dark .nav .btn .login {
-    border: 2px solid #0043ff8c;
-    background-color: black;
-    color: #0043ff8c;
-}
-
-.light .nav .item a {
+.logo h1{
     color: black;
 }
-.dark .nav .item a {
-    color: white;
-}
-.nav .item .home-btn {
-    color: #0043ff8c;
-}
-.light #signup{
-    color: black;
-}
-.dark #signup{
-    color: white;
-}
-.light .nav .setting div{
-    background-color: black;
-}
-.dark .nav .setting div{
-    background-color: white;
-}
-
-.light .foot-sec{
-    background: whitesmoke;
-}
-.dark .foot-sec{
-    background: rgb(21, 20, 20);
-}
-
-.light .foot-sec .item a{
-    color: black;
-}
-.dark .foot-sec .item a{
-    color: white;
-}
-
 .light .home {
     background-color: whitesmoke;
 }
@@ -78,8 +23,11 @@
     background-color:  rgb(21, 20, 20);
 }
 
-.home .right {
+.light .home .right {
     background-image: linear-gradient(155deg, #a7ceff, #bfc9cb);
+}
+.dark .home .right {
+    background-image: linear-gradient(155deg, #9498FF, #A2E9F7);
 }
 
 .light .home .left .btn input {
@@ -101,7 +49,7 @@
 }
 .dark .loc-sec .main-sec {
     background-color: black;
-    box-shadow: whitesmoke 0px 8px 24px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 30px;
 }
 
 .light .loc-sec .main-sec .pick label {
@@ -190,11 +138,11 @@
 
 .light .achie-sec .main-sec .box {
     background-color: white;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
 }
 .dark .achie-sec .main-sec .box {
     background-color: black;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 24px;
 }
 
 .light .start-sec {
@@ -211,8 +159,11 @@
     background-color: white;
 }
 
-.start-sec .main-sec .right {
+.light .start-sec .main-sec .right {
     background-image: linear-gradient(155deg, #a7ceff, #bfc9cb);
+}
+.dark .start-sec .main-sec .right {
+    background-image: linear-gradient(155deg, #9498FF, #A2E9F7);
 }
 
 .start-sec .main-sec .right img {

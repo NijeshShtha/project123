@@ -1,6 +1,6 @@
 let Mode = "light";
 let body = document.querySelector("body");
-let change = document.querySelector("img");
+let change = document.querySelector("section");
 let img = document.getElementById("toggle-img");
 change.addEventListener("click",() =>{
     document.body.classList.toggle("light");

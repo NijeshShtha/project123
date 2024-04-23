@@ -1,3 +1,105 @@
+.navi .logo h1{
+   font-weight: 700;
+   font-size: 25px;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+.navi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: white;
+    column-gap: 220px;
+}
+
+.navi .item {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navi .btn {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navi .btn button {
+    padding: 8px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #0043ff8c;
+    font-size: 13px;
+}
+
+.navi .btn .log-in {
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #0043ff8c;
+    background-color: white;
+    color: #0043ff8c;
+}
+
+.navi .item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+.navi .item .home-btn {
+    color: #0043ff8c;
+    font-weight: 700;
+}
+
+.setting{
+    margin-left: 30px;
+    margin-top: 11px;
+}
+
+.navi .setting div{
+    width: 20px;
+    height: 2.4px;
+    border: 1px solid none;
+    border-radius: 2px; 
+    background-color: black;
+    margin: 4px 0 3px 0;
+}
+.foot-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background: whitesmoke;
+    height: 56px;
+}
+
+.foot-sec .item{
+    display: flex;
+    column-gap: 20px;
+}
+.foot-sec .logo h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.copy p{
+    color: black;
+    margin-top: 10px;
+}
+
+.foot-sec .item a{
+    text-decoration: none;
+    color: black;
+}
 .header{
     display: flex;
     justify-content: center;
@@ -108,10 +210,15 @@
     justify-content: center;
     align-items: center;
 }
-.map-h h1{
+.light .map-h h1{
     font-weight: 700;
     margin: 4px 0 8px 0;
     color: black;
+}
+.dark .map-h h1{
+    color: white;
+    font-weight: 700;
+    margin: 4px 0 8px 0;
 }
 .map{
     display: flex;

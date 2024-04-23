@@ -4,7 +4,7 @@
     font-weight: 225;
 }
 p{
-    margin: 30px 0 30px 90px;
+    margin: 15px 0 15px 90px;
 }
 .light{
     background-color: white;
@@ -23,10 +23,19 @@ p{
     background-color: black;
     color: white;
 }
+#back{
+    margin-right: 50px;
+}
 .dark #back{
     background-color: white;
     color: black;
     display: flex;
+}
+.light .w-icon{
+    color: white;
+}
+.dark .w-icon{
+    color: black;
 }
 .dark #back p{
     color: black;
@@ -56,11 +65,14 @@ body .header{
     justify-content: space-between;
     align-items: center;
 }
-.mode-changer img{
-    width: 120px;
-    height: 50px;
-    margin: 0;
+.img-changer img{
+    width: 100px;
+    height: 40px;
+    margin: 0 900px 0 0;
     padding: 0;
+}
+.mode-changer p{
+    margin: 15px 90px;
 }
 .light .mode-changer img{
     background-color: black;
@@ -101,5 +113,55 @@ body .header{
     color: white; 
 }
 .about-us{
-    margin-left: 90px;
+    margin: 15px 0 15px 90px;
 }
+.img-changer{
+    cursor: pointer;
+}
+.pp{
+    height: 55px;
+    width: 55px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 15px 925px 0 0;
+    box-shadow: 0px 0px 20px black;
+}
+.dark .pp{
+    box-shadow: 0px 0px 20px rgb(184, 184, 184);
+}
+.acc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.acc p{
+    margin: 30px 0 10px 90px;
+}
+.pp img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+#gory{
+    margin-top: 15px;
+}
+.cate a{
+    margin-left: 130px;
+}
+.light hr{
+    color: rgb(68, 68, 68);
+    border-style: solid;
+    width: 420px;
+    margin: 0 0 0 90px; 
+}
+.dark hr{
+    color: white;
+    border-style: solid;
+    width: 420px;
+    margin: 0 0 0 90px; 
+}
+/* select{
+    border: 1px solid none;
+    border-radius: 10px;
+} */
