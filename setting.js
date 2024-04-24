@@ -5,10 +5,10 @@ let img = document.getElementById("toggle-img");
 change.addEventListener("click",() =>{
     document.body.classList.toggle("light");
     if(document.body.classList.contains("light")){
-        img.src = "d-l mode1.png";
+        img.src = "img/d-l mode1.png";
     }
     else{
-        img.src = "d-l mode2.png";
+        img.src = "img/d-l mode2.png";
     }
     if(Mode==="light"){
         Mode = "dark";
@@ -28,6 +28,6 @@ window.onload = function(){
     if(storedColor == 'dark')
     {
         document.body.classList.add('dark');
-        img.src = "d-l mode2.png";
+        img.src = "img/d-l mode2.png";
     }
 }

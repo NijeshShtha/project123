@@ -39,9 +39,6 @@
     background-color: #0043ff8c;
     color: white;
 }
-.home .right img {
-    filter: drop-shadow(20px 50px 25px #b3e3e3);
-}
 
 .light .loc-sec .main-sec {
     background-color: white;
@@ -164,8 +161,4 @@
 }
 .dark .start-sec .main-sec .right {
     background-image: linear-gradient(155deg, #9498FF, #A2E9F7);
-}
-
-.start-sec .main-sec .right img {
-    filter: drop-shadow(20px 50px 25px #b3e3e3);
 }

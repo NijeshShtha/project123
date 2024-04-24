@@ -12,19 +12,30 @@ body{
 .nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
   }
-  
-  .back {
-    margin-right: 10px; /* Add margin to separate the back button from the heading */
+  span.head{
+    margin-top: 0;
   }
 
-  .back span{
-    border-radius: 50%;
-    border: 2px solid black;
-    cursor: pointer;
-  }
+  .back-a{
+    height: 20px;
+    width: 20px;
+    transform: rotate(180deg);
+}
+
+.back{
+  height: 35px;
+  width: 35px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin: 20px 0 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
   
   .head {
     font-family: "Inria Serif", serif;
@@ -44,13 +55,15 @@ body{
     align-items: center;
     text-align: center;
     width: 100vw;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .user-img img{
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
+    box-shadow: 0px 0px 20px rgb(67, 67, 67);
+    margin-bottom: 15px;
   }
 
   .username{
@@ -71,6 +84,7 @@ body{
     width: 90%;
     background-color: transparent;
     font-size: 18px;
+    margin-left: 10px;
     transition: border-color 0.3s ease; /* Add transition for smooth effect */
   }
   
@@ -85,7 +99,6 @@ body{
 }
   .bottom-password{
     display: flex;
-    flex-direction: row;
     width: 100vw;
     justify-content: center;
     text-align: center;
@@ -95,44 +108,52 @@ body{
 
   .checkbox{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     margin-bottom: 20px;
+    height: 20px;
   }
 
   .forgotpass a{
     color: #5F5F5F;
+    text-decoration: none;
   }
 
   .login{
-    font-size: 18px;
-    font-weight: bolder;
-    height: 40px;
-    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 42px;
+    width: 140px;
     border-radius: 10px;
     border: 2px solid #000000;
     color: #000000;
+    margin: 20px 0 8px 0;
     background-color: transparent;
     transition: border-color 0.5s ease, color 0.5s ease, background-color 0.5s ease; 
 }
 
 .login:hover{
     cursor: pointer;
-    
-    border: 2px solid transparent;
-    border-radius: 10px;
-    background-color: #4170F4;
-    color: white;
 }
 p{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.btns{
-    display: flex;
-    flex-direction: column;
+.another-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.btns button{
+hr{
+  color: rgb(0, 0, 0);
+  border-style: solid;
+  width: 120px;
+  margin: 0 10px 0 10px; 
+}
+#or-or{
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn77{
     margin-bottom: 5px;
     font-size: 18px;
     font-weight: bolder;
@@ -145,10 +166,16 @@ p{
     transition: border-color 0.5s ease, color 0.5s ease, background-color 0.5s ease; 
 }
 
-.btns button:hover{
-    cursor: pointer;
-    border: 2px solid transparent;
-    border-radius: 10px;
-    background-color: #4170F4;
-    color: white;
+.btn77{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+}
+.btn77 img{
+  width: 28px;
+  height: 28px;
+  margin: 0 7px;
 }

@@ -153,10 +153,11 @@
 }
 
 .home .right img {
-    width: 30vw;
     background: transparent;
 }
-
+.home .right .car-img{
+    width: 32vw;
+}
 .loc-sec {
     height: 130px;
     /* background-color: red; */
@@ -497,7 +498,6 @@
 }
 
 .start-sec .main-sec .right {
-    /* background: rgb(47, 144, 255); */
     padding: 20px;
     height: 300px;
     display: flex;
@@ -506,22 +506,17 @@
     row-gap: 20px;
     width: 400px;
     align-items: center;
-
-    /* width: 400px;
-    height: 300px;
-    margin: 78px;
-    padding: 30px; */
     border-bottom-left-radius: 50%;
     border-top-right-radius: 50%;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center; */
+
     background-image: linear-gradient(155deg, #a7ceff, #bfc9cb);
 }
 
-.start-sec .main-sec .right img {
-    width: 30vw;
+.start-sec .main-sec .right .img-b {
+    width: 20vw;
+}
+.start-sec .main-sec .right .car-img{
+    width: 32vw;
 }
