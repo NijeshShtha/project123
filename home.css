@@ -301,6 +301,9 @@
     height: 35px;
     width: 100px;
 }
+.car-sec .main-sec .box img{
+    height: 200px;
+}
 
 #view-btn{
     display: flex;

@@ -5,8 +5,12 @@
 }
 
 .light{
-    background-color: white;
+    background-color: rgb(197, 102, 102);
     color: black;
+}
+.dark{
+    background-color: black;
+    color: white;
 }
 .nav {
     display: flex;
@@ -93,6 +97,7 @@
 .header-title{
     margin: 20px 20px 20px;
     text-align: center;
+    font-size: 40px;
 }
 .light {
 	background-color: white;
@@ -108,6 +113,7 @@
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-right: 10px;
 }
 .product{
     display: flex;
@@ -143,6 +149,8 @@
 }
 .product-left img{
     height: 100%;
+    width: 200px;
+    margin-right: 20px;
 }
 
 .product-right{
@@ -168,7 +176,6 @@
 .price span{
     font-size: 25px;
     font-weight: bolder;
-
 }
 
 .buttons button{

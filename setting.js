@@ -10,7 +10,7 @@ change.addEventListener("click",() =>{
     else{
         img.src = "img/d-l mode2.png";
     }
-    if(Mode==="light"){
+    if(Mode ==="light"){
         Mode = "dark";
         body.classList.add("dark");
         body.classList.remove("light");
